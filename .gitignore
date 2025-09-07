@@ -1,0 +1,73 @@
+# Vaccination Data Analysis Project - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database files (too large for GitHub)
+*.db
+*.sqlite
+*.sqlite3
+
+# Large data files
+*.xlsx
+*.csv
+coverage-data.xlsx
+incidence-rate-data.xlsx
+reported-cases-data.xlsx
+vaccine-introduction-data.xlsx
+vaccine-schedule-data.xlsx
+
+# Cleaning data output (generated files)
+cleaned_data/*.csv
+
+# Power BI files
+*.pbix
+powerbi_data/*.csv
+powerbi_data/*.xlsx
+
+# Reports (can be regenerated)
+reports/*.png
+reports/*.html
+reports/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

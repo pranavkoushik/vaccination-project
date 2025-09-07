@@ -1,0 +1,8 @@
+VACCINATION DATABASE CONNECTION INFO
+========================================
+
+database_type: SQLite
+database_path: vaccination_database.db
+connection_string: Data Source=vaccination_database.db
+tables: ['dim_countries', 'dim_antigens', 'dim_diseases', 'dim_years', 'fact_vaccination_coverage', 'fact_disease_incidence', 'fact_reported_cases', 'fact_vaccine_introduction', 'fact_vaccine_schedule']
+views: ['v_coverage_analysis', 'v_disease_burden', 'v_vaccination_effectiveness']
